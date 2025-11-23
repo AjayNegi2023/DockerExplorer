@@ -28,5 +28,7 @@ COPY index.js index.js
 
 COPY Dockerfile Dockerfile
 
+EXPOSE 8000 3000
+
 CMD ["npm","start"]
 
